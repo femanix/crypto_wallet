@@ -6,9 +6,9 @@ namespace :dev do
     if Rails.env.development?      
       spinner("Apagando banco de Dados..."){%x(rails db:drop)}    
       spinner("Criando banco de Dados..."){ %x(rails db:create)}       
-      spinner("Migrando banco de Dados..."){%x(rails db:migrate)}      
-      %x(rails dev:add_coins)
-      %x(rails dev:add_mining_types)
+      spinner("Migrando banco de Dados..."){%x(rails db:migrate)}  
+      %x(rails dev:add_mining_types)    
+      %x(rails dev:add_coins)     
 
       else
         puts "Você não está em ambiente de Desenvolvimento"
@@ -22,19 +22,22 @@ namespace :dev do
             {
                 description: "Bitcoin",
                 acronym: "BTC",
-                url_img: "https://imagensemoldes.com.br/wp-content/uploads/2020/09/Imagem-Dinheiro-Bitcoin-PNG.png"
+                url_img: "https://imagensemoldes.com.br/wp-content/uploads/2020/09/Imagem-Dinheiro-Bitcoin-PNG.png",
+                mining_type: MiningType.find_by(acronym: 'PoW')
             },
 
             {
                 description: "Ethereum",
                 acronym: "ETH",
-                url_img: "https://img1.gratispng.com/20180410/juw/kisspng-ethereum-cryptocurrency-bitcoin-cash-tether-impact-5acceb0643a7c2.9049379315233789502771.jpg"
+                url_img: "https://img1.gratispng.com/20180410/juw/kisspng-ethereum-cryptocurrency-bitcoin-cash-tether-impact-5acceb0643a7c2.9049379315233789502771.jpg",
+                mining_type: MiningType.all.sample
             },
 
             {
                 description: "Real",
                 acronym: "R$",
-                url_img: "https://img1.gratispng.com/20180627/iqo/kisspng-powell-law-group-p-c-brazilian-real-moeda-de-um-moedas-5b344c79c04c32.3011124415301541057877.jpg"
+                url_img: "https://img1.gratispng.com/20180627/iqo/kisspng-powell-law-group-p-c-brazilian-real-moeda-de-um-moedas-5b344c79c04c32.3011124415301541057877.jpg",
+                mining_type: MiningType.all.sample
             }
         ]
           
