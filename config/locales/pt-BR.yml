@@ -1,6 +1,7 @@
-en:
+pt-BR:
   hello: "Seja Bem Vindo!"
   links:
-    show: "Mostrar"
-    edit: Edutar
+    show: Mostrar
+    edit: Editar
     destroy: Apagar
+    back: Voltar

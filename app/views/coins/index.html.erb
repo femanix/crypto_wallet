@@ -20,9 +20,9 @@
         <td><%= coin.description %></td>
         <td><%= coin.acronym %></td>
         <td><%= image_tag coin.url_img, size: "25" %></td>
-        <td><%= link_to t('show'), coin %></td>
-        <td><%= link_to 'Editar', edit_coin_path(coin) %></td>
-        <td><%= link_to 'Excluir', coin, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to t('links.show'), coin %></td>
+        <td><%= link_to t('links.edit'), edit_coin_path(coin) %></td>
+        <td><%= link_to t('links.destroy'), coin, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
