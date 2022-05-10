@@ -1,5 +1,9 @@
 <h1>Seja bem vindo!</h1>
 <p><strong>Data:</strong> <%= l(Date.today) %> </p>
+<p> <%= link_to 'Português', root_path(locale:'pt-BR') %> </p>
+<p> <%= link_to 'English', root_path(locale: 'en') %> </p>
+
+
 <p>O idioma utilizado na aplicação é: <strong> <%= t('locale')%> </strong> </p>
 
 
