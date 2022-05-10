@@ -1,9 +1,8 @@
 pt-BR:
+  locale: "Português do Brasil"
   hello: "Seja Bem Vindo!"
   links:
     show: Mostrar
     edit: Editar
     destroy: Apagar
-    back: Voltar
-
-    
+    back: Voltar    
