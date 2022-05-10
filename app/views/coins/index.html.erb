@@ -7,9 +7,9 @@
 <table>
   <thead>
     <tr>
-      <th>Descrição</th>
-      <th>Sigla</th>
-      <th>Imagem</th>
+      <th><%= @coins.human_attribute_name(:description) %></th>
+      <th><%= @coins.human_attribute_name(:acronym) %></th>
+      <th><%= @coins.human_attribute_name(:url_img) %></th>
       <th colspan="3"></th>
     </tr>
   </thead>
