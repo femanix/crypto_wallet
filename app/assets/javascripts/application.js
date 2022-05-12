@@ -13,5 +13,5 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
-//= require jquery
-//= require notify
+//= require jQuery/dist/jquery.js
+//= require notifyjs
