@@ -1,5 +1,13 @@
 {
   "name": "crypto_wallet",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "notify-js-legacy": "^0.4.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:femanix/crypto_wallet.git",
+  "author": "Lucas <femani.lucas@hotmail.com>",
+  "license": "MIT"
 }
