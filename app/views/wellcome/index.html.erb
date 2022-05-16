@@ -1,12 +1,10 @@
-<h1>Seja bem vindo!</h1>
-<p><strong>Data:</strong> <%= l(Date.today) %> </p>
-<p> <%= link_to 'Português', root_path(locale:'pt-BR') %> </p>
-<p> <%= link_to 'English', root_path(locale: 'en') %> </p>
+<div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold"><%= t('hello') %></h1>
+        <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+      
+        <p><strong>Data:</strong> <%= l(Date.today) %> </p>
+        <p> <%= render "menu" %> </p>
 
-
-<p>O idioma utilizado na aplicação é: <strong> <%= t('locale')%> </strong> </p>
-
-
-<p> <%= render "menu" %> </p>
-
-<p>Olá <%= @nome %> </p>
+      </div>
+    </div>

@@ -6,17 +6,25 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= stylesheet_link_tag    'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>     
     <%= stylesheet_link_tag    params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag params[:controller], 'data-turbolinks-track': 'reload' %>     
   </head>
 
   <body>
-  <h1>CABEÇALHO - <%= params[:controller] %> </h1>
+  <ul class="nav justify-content-end"> 
+  <li class="nav-item">
+    <%= link_to 'Português', root_path(locale:'pt-BR'), class:"nav-link"%> 
+  </li>
+  <li class="nav-item">
+    <%= link_to 'Inglês', root_path(locale:'en'), class:"nav-link"%>
+  </li>
+</ul>
+  
+  <div class="container-fluid">
+    
     <%= yield %>
-  <h1>RODAPÉ</h1>
-
+  </div>
   <script> $.notify("Concluído!", "success"); </script>
   </body>
 </html>
