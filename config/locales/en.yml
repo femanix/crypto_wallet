@@ -36,3 +36,24 @@ en:
     show: Show
     edit: Edit
     destroy: Destroy
+  new:
+    coin: "New Coin"
+    mining_type: "New Mining Type"
+  notice: 
+    update:
+      coin: Coin was successfully updated.
+      mining_type: Mining Type was successfully updated.
+    delete: 
+      coin: Coin was successfully destroyed.
+      mining_type: Mining Type was successfully destroyed.
+    create:
+      coin: Coin was successfully created.
+      mining_type: Mining Type was successfully created.
+    confirm: Are you sure?
+  title:
+    coin:
+      edit: Editing Coin
+      create: New Coin
+    mining_type:
+      edit: Editing Mining Type
+      create: New Mining Type

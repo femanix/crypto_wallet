@@ -10,18 +10,18 @@
       </ul>
     </div>
   <% end %>
-
+<div class="d-grid gap-3">
+ <div class="field">
+    <%= form.label :description , class: 'form-label'%>
+    <%= form.text_field :description, class: 'form-control' %>
+  </div>
   <div class="field">
-    <%= form.label :description %>
-    <%= form.text_field :description %>
+    <%= form.label :acronym, class:"form-label" %>
+    <%= form.text_field :acronym, class: 'form-control' %>
   </div>
 
-  <div class="field">
-    <%= form.label :acronym %>
-    <%= form.text_field :acronym %>
+    <div class="actions py-3">
+    <%= form.submit nil, class:"btn btn-success"%>
   </div>
-
-  <div class="actions">
-    <%= form.submit %>
-  </div>
+</div>
 <% end %>

@@ -1,25 +1,23 @@
 <p id="notice"><%= notice %></p>
-
+<h1><%= @coin.class.model_name.human %></h1>
 <p>
-  <strong>Description:</strong>
-  <%= @coin.description %>
+  <strong><%= label_tag nil,  @coin.class.human_attribute_name(:description)%></strong>
+  <%= text_field_tag nil,  @coin.description, class: "form-control", disabled: true %>
 </p>
 
 <p>
-  <strong>Acronym:</strong>
-  <%= @coin.acronym %>
+  <strong><%= label_tag nil,  @coin.class.human_attribute_name(:acronym)%></strong>
+  <%= text_field_tag nil, @coin.acronym, class: "form-control", disabled: true %>
 </p>
 
 <p>
-  <strong>Url img:</strong>
-  <%= @coin.url_img %>
+  <strong><%= label_tag nil,  @coin.class.human_attribute_name(:url_img)%></strong>
+  <%= text_field_tag nil, @coin.url_img, class: "form-control", disabled: true %>
 </p>
 
 <p>
-  <strong>Mining Type:</strong>
-  <%= @coin.mining_type_id %>
+  <strong><%= label_tag nil,  @coin.class.human_attribute_name(:mining_type_id)%></strong>
+  <%= text_field_tag nil, @coin.mining_type.description, class: "form-control", disabled: true %>
 </p>
-
-
-<%= link_to t('links.edit'), edit_coin_path(@coin) %> |
-<%= link_to t('links.back'), coins_path %>
+<%= link_to t('links.edit'), edit_coin_path(@coin), class:"btn btn-primary" %> |
+<%= link_to t('links.back'), coins_path, class:"btn btn-danger" %>
