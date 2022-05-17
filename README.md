@@ -8,9 +8,9 @@
 ![GitHub commits](https://img.shields.io/github/commit-activity/y/femanix/crypto_wallet?label=Commits&logo=github&style=social)
 ![GitHub languages](https://img.shields.io/github/languages/count/femanix/crypto_wallet?label=Linguagens&logo=ruby&style=social)
 ![Top Language](https://img.shields.io/github/languages/top/femanix/crypto_wallet?logo=ruby&style=social)
-![Framework](https://img.shields.io/badge/Framework-Rails-red)
+![Framework](https://img.shields.io/badge/Framework-Rails-red?style=social&logo=appveyor)
 
-<img src="exemplo-image.png" alt="exemplo imagem">
+<img src="rails.svg.png" alt="exemplo imagem">
 
 > Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
 ### Ajustes e melhorias
