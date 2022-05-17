@@ -1,0 +1,29 @@
+pt-BR:
+  locale: "Português do Brasil"
+  hello: "Seja Bem Vindo!"
+  links:
+    show: Mostrar
+    edit: Editar
+    destroy: Apagar
+    back: Voltar    
+  new:
+    coin: "Nova Moeda"
+    mining_type: "Novo Tipo de Mineração"
+  notice: 
+    update:
+      coin: A moeda foi atualizada com sucesso.
+      mining_type: O tipo de mineração foi atualizado com sucesso.
+    delete: 
+      coin: A moeda foi deletada com sucesso.
+      mining_type: O tipo de mineração foi deletado com sucesso.
+    create:
+      coin: A moeda foi criada com sucesso.
+      mining_type: O tipo de mineração foi criado com sucesso.
+    confirm: Você tem certeza?
+  title:
+    coin:
+      edit: Editando Moeda
+      create: Nova Moeda
+    mining_type:
+      edit: Editando Tipo de Mineração
+      create: Novo Tipo de Mineração

@@ -1,0 +1,2 @@
+<%= link_to "#{Coin.model_name.human(count: Coin.count)}", coins_path(locale: cookies[:locale]), class:"btn btn-primary btn-lg" %>
+<%= link_to "#{MiningType.model_name.human(count: 2)}", mining_types_path, class:"btn btn-primary btn-lg"%>

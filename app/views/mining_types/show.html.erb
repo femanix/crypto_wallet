@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+<h1><%= @mining_type.class.model_name.human %></h1>
+<p>
+  <strong><%= label_tag nil,  @mining_type.class.human_attribute_name(:description)%>:</strong>
+ <%= text_field_tag nil,  @mining_type.description, class: "form-control", disabled: true %>
+</p>
+
+<p>
+ <strong><%= label_tag nil,  @mining_type.class.human_attribute_name(:description)%>:</strong>
+ <%= text_field_tag nil,  @mining_type.acronym, class: "form-control", disabled: true %>
+</p>
+<%= link_to t('links.edit'), edit_mining_type_path(@mining_type), class:"btn btn-primary" %> |
+<%= link_to t('links.back'), mining_types_path, class:"btn btn-danger" %>

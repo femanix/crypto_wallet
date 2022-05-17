@@ -1,0 +1,38 @@
+<%= form_with(model: coin, local: true) do |form| %>
+  <% if coin.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(coin.errors.count, "error") %> prohibited this coin from being saved:</h2>
+
+      <ul>
+      <% coin.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+<div class="d-grid gap-3">
+  <div class="field">
+    <%= form.label :description , class: 'form-label'%>
+    <%= form.text_field :description, class: 'form-control' %>
+  </div>
+
+  <div class="field">
+    <%= form.label :acronym, class:"form-label" %>
+    <%= form.text_field :acronym, class: 'form-control' %>
+  </div>
+
+  <div class="field">
+    <%= form.label :url_img, class:"form-label" %>
+    <%= form.text_field :url_img, class: 'form-control' %>
+  </div>
+
+  <div class="field">
+    <%= form.label :mining_type_id %>
+    <%= form.select( "mining_type_id", @mining_type_options, {include_blank: 'Selecione...'} , class: 'form-control')%>
+  </div>
+
+  <div class="actions py-3">
+    <%= form.submit nil, class:"btn btn-success"%>
+  </div>
+</div>
+<% end %>

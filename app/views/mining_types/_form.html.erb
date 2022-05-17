@@ -1,0 +1,27 @@
+<%= form_with(model: mining_type, local: true) do |form| %>
+  <% if mining_type.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(mining_type.errors.count, "error") %> prohibited this mining_type from being saved:</h2>
+
+      <ul>
+      <% mining_type.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+<div class="d-grid gap-3">
+ <div class="field">
+    <%= form.label :description , class: 'form-label'%>
+    <%= form.text_field :description, class: 'form-control' %>
+  </div>
+  <div class="field">
+    <%= form.label :acronym, class:"form-label" %>
+    <%= form.text_field :acronym, class: 'form-control' %>
+  </div>
+
+    <div class="actions py-3">
+    <%= form.submit nil, class:"btn btn-success"%>
+  </div>
+</div>
+<% end %>
