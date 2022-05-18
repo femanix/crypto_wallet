@@ -1,4 +1,9 @@
 GEM
+  remote: https://rails-assets.org/
+  specs:
+    rails-assets-notifyjs (0.4.2)
+
+GEM
   remote: https://rubygems.org/
   specs:
     actioncable (5.2.8)
@@ -218,6 +223,7 @@ DEPENDENCIES
   pg
   puma (~> 3.11)
   rails (~> 5.2.7)
+  rails-assets-notifyjs!
   rails-i18n (~> 5.1)
   sass-rails (~> 5.0)
   selenium-webdriver

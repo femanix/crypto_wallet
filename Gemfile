@@ -39,6 +39,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'tty-spinner'
 gem 'rails-i18n', '~> 5.1'
 gem 'webpacker'
+gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
 
 
 group :development, :test do
@@ -70,4 +71,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
   gem 'pg'
+
 end
