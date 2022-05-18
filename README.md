@@ -83,7 +83,7 @@ Aqui um pouco do conteúdo abordado no curso:
 ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
-
-
+> ### Caso queira ver a aplicação no ar:
+> [Crypto Wallet - Em desenvolvimento](https://crypto-wallet-femanix.herokuapp.com/)
 
 [⬆ Voltar ao topo](#crypto_wallet)<br>
