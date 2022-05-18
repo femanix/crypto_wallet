@@ -60,7 +60,20 @@ rails dev:setup
 
 Este curso foi meu segundo contato com Ruby e o primeiro com o Framework Rails. Pude perceber que mesmo com sua complexdade tive uma boa curva de aprendizado, gostei muito do framework e com certeza darei continuidade nesta jornada. Encontrar conteúdo de Rails em português é um pouco complicado, você até acha alguns vídeos e cursos muito bons na internet mas ele não é muito popular por aqui, lá fora tem uma comunidade bastante madura de Rails e não houve um problema ou dúvida que não consegui achar pesquisando em inglês... 
 
-
+![Ambiente](https://img.shields.io/badge/Como%20configurar%20o%20ambiente%20-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Rails](https://img.shields.io/badge/Como%20gerar%20aplicação%20com%20os%20módulos%20específicos%20-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
+Gems
+Yarn
+Tasks
+Helpers
+Rotas 
+Scaffold
+Partials/Layouts
+I18n
+Cookies & Sessions
+Assets
+Bibliotecas Externas (jQuery, JS, Bootstrap...)
+![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
 
 [⬆ Voltar ao topo](#crypto_wallet)<br>
