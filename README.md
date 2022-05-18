@@ -13,7 +13,7 @@
 <img src="rails.svg.png" alt="exemplo imagem">
 
 > Aplicação desenvolvida durante o curso de Ruby On Rails, uma carteira que permite armazenar as informações de cripto moedas.
-### Ajustes e melhorias
+### 🚧 Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
