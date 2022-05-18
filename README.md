@@ -56,17 +56,11 @@ Caso queira popular as tabelas para ter dados pré configuados rode a task dev:s
 rails dev:setup
 ```
 
-## 📫 Contribuindo para <crypto_wallet>
+## 📫 Resumo do Aprendizado <`Ruby:` on Rails>
 
-Para contribuir com <crypto_wallet>, siga estas etapas:
-
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <crypto_wallet> / <local>`
-5. Crie a solicitação de pull.
-
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+Este curso foi meu segundo contato com Ruby e o primeiro com o Framework Rails. Pude perceber que mesmo com sua complexdade tive uma boa curva de aprendizado, gostei muito do framework e com certeza darei continuidade nesta jornada. Encontrar conteúdo de Rails em português é um pouco complicado, você até acha alguns vídeos e cursos muito bons na internet mas ele não é muito popular por aqui, lá fora tem uma comunidade bastante madura de Rails e não houve um problema ou dúvida que não consegui achar pesquisando em inglês... 
 
 
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+
+
+[⬆ Voltar ao topo](#crypto_wallet)<br>
